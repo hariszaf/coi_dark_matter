@@ -28,6 +28,7 @@ for line in input:
 			output.write(line)
 		else:
 			double_taxonomies.add(taxonomy)
+			checking_var = 0
 
 	else:
 		if checking_var == 1:
