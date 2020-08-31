@@ -29,5 +29,5 @@ export MAFFT_MPIRUN="/usr/bin/mpirun -n 30 -npernode 15 -bind-to none"
 --large \
 --globalpair \
 --thread 15 \
-MIDORI_single_species_input_for_PHAT_algo.fasta > \
+MIDORI_single_species_input_for_mafft.fasta > \
 MIDORI_alignment.fasta
