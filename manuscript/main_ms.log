@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.17)  17 DEC 2020 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2020.12.17)  17 DEC 2020 21:34
 entering extended mode
 **/home/haris/Documents/coding/github_repos/coi_dark_matter/manuscript/main_ms.tex
 (/home/haris/Documents/coding/github_repos/coi_dark_matter/manuscript/main_ms.tex
@@ -26,35 +26,35 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) (/home/haris/Documents/coding/github_repos/coi_dark_matter/manuscript/main_ms.aux)
 \openout1 = `main_ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  [1
 
-{/home/haris/.miktex/texmfs/data/pdftex/config/pdftex.map}] (/home/haris/Documents/coding/github_repos/coi_dark_matter/manuscript/main_ms.aux) ) 
+{/home/haris/.miktex/texmfs/data/pdftex/config/pdftex.map}] (/home/haris/Documents/coding/github_repos/coi_dark_matter/manuscript/main_ms.bbl) [2] (/home/haris/Documents/coding/github_repos/coi_dark_matter/manuscript/main_ms.aux) ) 
 Here is how much of TeX's memory you used:
- 386 strings out of 481630
- 7493 string characters out of 2918692
- 266640 words of memory out of 3000000
- 17320 multiletter control sequences out of 15000+200000
- 403430 words of font info for 27 fonts, out of 3000000 for 9000
+ 400 strings out of 481630
+ 7828 string characters out of 2918692
+ 267692 words of memory out of 3000000
+ 17328 multiletter control sequences out of 15000+200000
+ 404381 words of font info for 30 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 43i,4n,49p,198b,100s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/haris/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk>
-Output written on /home/haris/Documents/coding/github_repos/coi_dark_matter/manuscript/main_ms.pdf (1 page, 8752 bytes).
+ 43i,4n,49p,198b,139s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/haris/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/haris/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/haris/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /home/haris/Documents/coding/github_repos/coi_dark_matter/manuscript/main_ms.pdf (2 pages, 39955 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
