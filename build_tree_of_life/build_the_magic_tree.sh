@@ -31,5 +31,6 @@ echo "check is over \n move to final building step "
 --model GTR+FO+G4m \
 --threads 3
 
-
+# if tree is ok, then you can try to ask for more bootstraps for a more reliable tree
+# --bs-trees 100
 #   GTR+G4
