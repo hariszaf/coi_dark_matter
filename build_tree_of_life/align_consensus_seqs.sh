@@ -21,7 +21,7 @@ start=$SECONDS
 
 
 # Run the mafft alignment tool
-mafft --globalpair --maxiterate 1000 consensus_sequences/all_consensus_mafft_input.fasta >  all_consensus_aligned.fasta
+/usr/bin/mafft --globalpair --maxiterate 1000 --thread 20 consensus_sequences/all_consensus_mafft_input.fasta >  all_consensus_aligned.fasta
 
 
 # Stop counting the time and unload the environment module 
