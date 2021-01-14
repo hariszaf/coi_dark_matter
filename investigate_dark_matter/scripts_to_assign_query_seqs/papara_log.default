@@ -1,0 +1,47 @@
+papara called as:
+/home1/haris/programs/papara_nt-2.5/papara -t ../../build_tree_of_life/alternative_built/fast_Tree.raxml.bestTree -s ../../build_tree_of_life/alternative_built/all_consensus_aligned3__removed.fasta.raxml.reduced.phy -q ../processed_query_sequences/marine/marine_query_short_dark_matter_top6_multilne_labeled.fasta -r -j 12 
+references container instantiated as: papara::references<pvec_pgap, sequence_model::tag_dna>
+edges: 2433
+scoring scheme: -3 -1 2 -3
+papara_core version 2.5
+start scoring, using 12 threads
+0% done. 2.69939 gncup/s, 9.82264 tpili (short: 2.69939, 9.82264)
+1.35593% done. 2.69953 gncup/s, 9.82235 tpili (short: 2.69967, 9.82207)
+5.76271% done. 2.69963 gncup/s, 9.82217 tpili (short: 2.69982, 9.82181)
+9.83051% done. 2.69967 gncup/s, 9.82208 tpili (short: 2.6998, 9.82181)
+13.8983% done. 2.69969 gncup/s, 9.82206 tpili (short: 2.69976, 9.82195)
+17.9661% done. 2.69971 gncup/s, 9.82203 tpili (short: 2.6998, 9.82193)
+22.0339% done. 2.69971 gncup/s, 9.82207 tpili (short: 2.6997, 9.82226)
+26.1017% done. 2.69969 gncup/s, 9.82212 tpili (short: 2.69962, 9.82252)
+30.1695% done. 2.69968 gncup/s, 9.82218 tpili (short: 2.69958, 9.82264)
+34.5763% done. 2.69968 gncup/s, 9.82221 tpili (short: 2.69965, 9.82245)
+38.6441% done. 2.69967 gncup/s, 9.82223 tpili (short: 2.6996, 9.82251)
+43.0508% done. 2.69966 gncup/s, 9.82236 tpili (short: 2.69954, 9.82379)
+47.1186% done. 2.69927 gncup/s, 9.8238 tpili (short: 2.69462, 9.84097)
+51.5254% done. 2.699 gncup/s, 9.82483 tpili (short: 2.69542, 9.83831)
+55.5932% done. 2.69877 gncup/s, 9.82569 tpili (short: 2.69559, 9.83766)
+60% done. 2.69859 gncup/s, 9.82635 tpili (short: 2.69584, 9.83624)
+64.0678% done. 2.69836 gncup/s, 9.82717 tpili (short: 2.69471, 9.8404)
+68.1356% done. 2.69844 gncup/s, 9.8269 tpili (short: 2.69991, 9.8222)
+72.2034% done. 2.6985 gncup/s, 9.82669 tpili (short: 2.69951, 9.82304)
+75.9322% done. 2.69855 gncup/s, 9.82652 tpili (short: 2.69947, 9.82313)
+80% done. 2.6986 gncup/s, 9.82631 tpili (short: 2.6997, 9.82211)
+84.0678% done. 2.69866 gncup/s, 9.82612 tpili (short: 2.69978, 9.82212)
+88.1356% done. 2.69869 gncup/s, 9.82599 tpili (short: 2.69948, 9.82327)
+92.2034% done. 2.69873 gncup/s, 9.82587 tpili (short: 2.69951, 9.8231)
+96.2712% done. 2.69876 gncup/s, 9.82577 tpili (short: 2.69948, 9.82324)
+thread 0: 2.69876 gncup/s
+thread 4: 2.69825 gncup/s
+thread 5: 2.69781 gncup/s
+thread 1: 2.69766 gncup/s
+thread 2: 2.6968 gncup/s
+thread 8: 2.69619 gncup/s
+thread 3: 2.695 gncup/s
+thread 10: 2.70254 gncup/s
+thread 9: 2.61108 gncup/s
+thread 7: 2.70013 gncup/s
+thread 11: 2.69951 gncup/s
+thread 6: 2.69904 gncup/s
+scoring finished: 885.433
+generating best scoring alignments
+SUCCESS 974.578
