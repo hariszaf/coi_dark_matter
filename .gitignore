@@ -2,6 +2,7 @@
 *.phy
 *.xml
 *.tsv
+*.txt
 *.output
 *.dmp
 *.aln
