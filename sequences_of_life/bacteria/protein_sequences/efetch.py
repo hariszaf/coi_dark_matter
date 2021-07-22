@@ -6,7 +6,7 @@ import os, time, sys
 # As you can see, in the end of the query there is a value for the WebEnv parameter; 
 # this needs to change accordingly with the output of the previous piece of code
 # You need to check the response_file.xml to get the WebEnv value returned and add it to the url query
-webenv = "MCID_60f748f10da6aa0b2d424d2c"
+webenv = "MCID_60f8643eb8e3924052041fe1"
 count = 487629
 key = 1
 
@@ -28,7 +28,7 @@ if not os.path.exists(filename):
 
 
 
-restart = 68450
+restart = 426700
 while restart < count: 
 
    restart += retmax
