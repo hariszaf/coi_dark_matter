@@ -1,25 +1,32 @@
 #!/bin/bash
 
-IFS=$'\n'; for p in $(cat protein_ids.tsv);
-do
+for filename in ids/*; do
 
-   /home/haris/edirect/esearch -db protein -query $p | /home/haris/edirect/efetch -format gp > tmp.txt
+   [ -e "$filename" ] || continue
+   echo $filename
+   echo "*******************************"
 
-   if grep -q "coded_by=" tmp.txt; then
+   IFS=$'\n'; for p in $(cat $filename);
+   do
 
-      echo -n $p "   " >> test
-      grep "coded_by=" tmp.txt  >> test 
-      sleep 0.5s
+      /home/haris/edirect/esearch -db protein -query $p | /home/haris/edirect/efetch -format gp > tmp.txt
 
-      rm tmp.txt
+      if grep -q "coded_by=" tmp.txt; then
 
-   else
-      echo $p "was not retrieved" >> no_coordinates_found.tsv
+         echo -n $p "   " >> coordinates_spaces.tsv
+         grep "coded_by=" tmp.txt  >> coordinates_spaces.tsv
+         sleep 0.5s
 
-   fi
-   echo $p
-   echo '------'
+         rm tmp.txt
 
+      else
+         echo $p "was not retrieved" >> no_coordinates_found.tsv
+
+      fi
+      echo $p
+      echo '------'
+
+   done
 done
 
-sed 's/  */\t/g'  test > cordinates.tsv 
+sed 's/  */\t/g'  no_coordinates_found.tsv > cordinates.tsv 
