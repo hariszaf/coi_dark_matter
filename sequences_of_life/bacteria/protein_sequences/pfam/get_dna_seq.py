@@ -10,8 +10,8 @@
 import sys
 import subprocess
 
-coordinates_file   = open('COORDINATES', 'r')
-   
+coordinates_file   = open('final_coordinates.tsv', 'r')
+
 for entry in coordinates_file: 
 
    genome_id       = entry.split(":")[0]
