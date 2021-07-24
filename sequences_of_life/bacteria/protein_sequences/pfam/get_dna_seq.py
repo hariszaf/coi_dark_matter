@@ -11,8 +11,9 @@ import sys, time, os
 import subprocess
 
 #coordinates_file   = open('final_coordinates.tsv', 'r')
-log_file           = open('downloads.log', 'w+')
-path = os.getcwd()
+path               = os.getcwd()
+log_file           = open('downloads.log', 'w')
+error_file         = open('error.log', 'w')
 coordinate_files   = path + "/coordinates"
 
 
@@ -23,12 +24,24 @@ for coordinates_file in os.listdir(coordinate_files):
 
    for entry in coordinates_file:
 
-      genome_id       = entry.split(":")[0]
-      seq_coordinates = entry.split(":")[1]
-      start           = seq_coordinates.split("..")[0]
-      end             = seq_coordinates.split("..")[1]
-      log_file.write(entry)
-      subprocess.run(["/home1/haris/programs/edirect/efetch", "-db", "nuccore", "-id", genome_id, "-seq_start", start, "-seq_stop", end, "-format", "fasta" ])
+      try: 
+         
+         genome_id       = entry.split(":")[0]
+         seq_coordinates = entry.split(":")[1]
+         start           = seq_coordinates.split("..")[0]
+         end             = seq_coordinates.split("..")[1]
 
-      time.sleep(0.4)
+         length          = int(end) - int(start)
+
+         if length > 300 and length < 1800: 
+
+            log_file.write(entry)
+      
+            subprocess.run(["/home1/haris/programs/edirect/efetch", "-db", "nuccore", "-id", genome_id, "-seq_start", start, "-seq_stop", end, "-format", "fasta" ])
+
+            time.sleep(0.3)
+      
+      except:
+         print("coordinates not found: ", entry)
+         log_file.write(entry)
 
