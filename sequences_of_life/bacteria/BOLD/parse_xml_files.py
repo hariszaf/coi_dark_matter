@@ -2,8 +2,9 @@
 
 import re, os
 
-directory = "/home1/haris/Desktop/BOLD/bacteria/"
-output_file = open("bacteria/ncbi_ids_and_seq.tsv", "w+")
+path = os.getcwd()
+directory = path + "/bold_xml_files/"
+output_file = open("ncbi_ids_and_seq.tsv", "w+")
 
 check = False
 
