@@ -35,4 +35,4 @@ for filename in ids/*; do
    done
 done
 
-sed 's/  */\t/g'  coordinates_spaces.tsv > cordinates.tsv 
+sed 's/  */\t/g'  coordinates_spaces.tsv > coordinates.tsv 
