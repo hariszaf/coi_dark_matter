@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# script name: get_coordinates.sh
+# developed by: Haris Zafeiropoulos
+# date: 2021.07
+# framework: darn project 
+# usage: ./get_coordinates.sh 
+
 for filename in ids/*; do
 
    [ -e "$filename" ] || continue
@@ -29,4 +35,4 @@ for filename in ids/*; do
    done
 done
 
-sed 's/  */\t/g'  no_coordinates_found.tsv > cordinates.tsv 
+sed 's/  */\t/g'  coordinates_spaces.tsv > cordinates.tsv 
