@@ -16,10 +16,14 @@ coordinate_files   = path + "/coordinates"
 
 for coordinates_file in os.listdir(coordinate_files):
 
+   print(coordinates_file)
+
    coordinates_file = coordinate_files + "/"  + coordinates_file
    coordinates_file = open(coordinates_file, 'r')
 
    for entry in coordinates_file:
+
+      entry_coordinates = entry
 
       try: 
          
@@ -41,8 +45,10 @@ for coordinates_file in os.listdir(coordinate_files):
             with open('pfam_dna_sequences.fasta', "a+") as outfile:
                subprocess.run(e_comm, stdout=outfile)
 
+            print(entry_coordinates)
+            
             log_file = open('downloads.log', 'a+')
-            log_file.write(entry)
+            log_file.write(entry_coordinates)
 
             # subprocess.run(["/home1/haris/programs/edirect/efetch", "-db", "nuccore", "-id", genome_id, "-seq_start", start, "-seq_stop", end, "-format", "fasta" ])
 
@@ -50,8 +56,8 @@ for coordinates_file in os.listdir(coordinate_files):
       
       except:
 
-         print("coordinates not found: ", entry)
+         print("coordinates not found: ", entry_coordinates)
          error_file = open('error.log', 'a+')
-         error_file.write(entry)
+         error_file.write(entry_coordinates)
 
 
