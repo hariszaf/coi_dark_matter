@@ -1,6 +1,6 @@
 *.fasta
 *.phy
-*.xml
+#*.xml
 *.tsv
 *.txt
 *.output
