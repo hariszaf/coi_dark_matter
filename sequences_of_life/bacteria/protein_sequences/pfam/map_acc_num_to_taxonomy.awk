@@ -4,13 +4,13 @@
 # developed by: Haris Zafeiropoulos
 # date: 2021.07.24
 # framework: darn project
-# usage: /build_seq_file.awk PAIRS /home1/haris/Desktop/ncbi_taxonomy_dump/fullnamelineage.dmp  > IDS_TAXA
+# usage: ./map_acc_num_to_taxonomy.awk PAIRS /home1/haris/Desktop/ncbi_taxonomy_dump/fullnamelineage.dmp  > IDS_TAXA
+
 
 (ARGIND==1){
 
-   FS="\t"
-   accession_ncbi_id[$1]=$2
-   ncbi_id_accession[$2]=$1
+  FS="\t"
+  ncbi_id_accession[$2][$1]= $1
 
 }
 
@@ -18,15 +18,16 @@
 
    FS="|"
 
-   $1 = substr($1, 1, length($1)-1)
-
-   if ($1 in ncbi_id_accession){
+   pattern = substr($1, 1, length($1)-1)
 
 
-      print ncbi_id_accession[$1] "\t" $1 "\t" $3 " " $2
+   if (pattern in ncbi_id_accession ){
 
+      for (i in ncbi_id_accession[pattern]) {
+
+         print ncbi_id_accession[pattern][i] "\t" pattern "\t" $3 " " $2
+
+      }
    }
-
 }
-
 
