@@ -18,4 +18,4 @@
 --thread 20 \
 --globalpair \
 --adjustdirectionaccurately \
-archaea.fasta > aligned_archaea.fasta
+archaea.fasta > aligned_archaea.aln
