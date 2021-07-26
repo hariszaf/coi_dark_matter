@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bold_records  xsi:noNamespaceSchemaLocation="http://v3.boldsystems.org/schemas/BOLDPublic_record.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <record>
+    <record_id>5778011</record_id>
+    <processid>GBBAC1899-15</processid>
+    <bin_uri></bin_uri>
+    <specimen_identifiers>
+      <sampleid>CP007139</sampleid>
+      <fieldnum>CP007139</fieldnum>
+      <institution_storing>Mined from GenBank, NCBI</institution_storing>
+    </specimen_identifiers>
+    <taxonomy>
+      <phylum>
+        <taxon>
+          <taxID>392645</taxID>
+          <name>Armatimonadetes</name>
+        </taxon>
+      </phylum>
+      <genus>
+        <taxon>
+          <taxID>703867</taxID>
+          <name>Fimbriimonas</name>
+        </taxon>
+      </genus>
+      <species>
+        <taxon>
+          <taxID>703868</taxID>
+          <name>Fimbriimonas ginsengisoli</name>
+        </taxon>
+      </species>
+    </taxonomy>
+    <specimen_details>
+      <voucher_type></voucher_type>
+      <voucher_desc></voucher_desc>
+      <extrainfo>taxon:661478</extrainfo>
+    </specimen_details>
+    <collection_event>
+      <collectors></collectors>
+      <country></country>
+    </collection_event>
+    <sequences>
+      <sequence>
+        <sequenceID>7334336</sequenceID>
+        <markercode>COI-5P</markercode>
+        <genbank_accession>CP007139</genbank_accession>
+        <nucleotides>ATGAGCGCCACTGTCATCCGTCCTGACGACCACTTTGAGGAGGTGCACGAACCGGTCAATTACGCCAACAACGGGCACACCATCAAATCGTGGTTGTTGACCCACGACCATAAGCGGATCGCGATCCTCTATCTCGTATCCACGGCGTTCTTCTTCTTGCTGGGCGGCATCGCGGCGGGCCTGATCCGCTACGAGCTGACGAGCCCTGCCGGCGTCATCCTGGAGTCCGAGACCTACAACAAGGTCTTCTCCTCGCACGGCATTCTGATGATCTTCACGTTCCTGGTGCCGGCGATTCCGGCGATCTTCGGGAACTTCGTCTTGCCATTGATGATAGGCGCGCGTGACGTCGCCTTTCCCAAGCTCAACCTTCTGAGCTGGTACCTCTACATGGCGGGCGGCGGCTGCATCCTCTGGGGAATCCTAGGCGGCGGCGTCGACACTGGTTGGACCTTCTATACGCCGCTTTCGAGTACCTACTCGAATGGCCAAGTGACGATTACCATCATCGGAATCTTCATCGGAGGCTTCTCGTCGATCACCACCGGCGTCAACTTCATCACCACCATCCACAAGATGCGGGCGCCCGGTATGACCTGGTTCCGGTTGCCGCTCTTTGTTTGGTCGATGTACGCCACGAGCATCATTTTC</nucleotides>
+      </sequence>
+    </sequences>
+    <notes></notes>
+  </record>
+</bold_records>
