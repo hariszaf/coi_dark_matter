@@ -4,7 +4,7 @@ import sys
 import os, re
 
 path                    = os.getcwd()
-mytaxonomy              = open('TABSUPERSOSPHYLUMCOMP')
+mytaxonomy              = open('curated_taxonomies_format')
 my_alignment_taxonomies = open('taxonomies_present.tsv')
 my_alignment            = open('trimmed_aligned_bascteria.aln')
 
