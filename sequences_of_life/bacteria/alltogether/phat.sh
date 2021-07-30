@@ -15,7 +15,7 @@
 /home1/haris/Desktop/stsm/sequences_of_life/gappa/bin/gappa prepare phat \
     --taxonomy-file TAXONOMIES_FIXED \
     --sequence-file fixed_tax_trimmed_bacteria.aln \
-    --target-size 375  \
+    --target-size 450  \
     --min-tax-level 3\
     --threads 20 \
     --consensus-method majorities \
