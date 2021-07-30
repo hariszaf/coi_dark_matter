@@ -20,5 +20,5 @@
 
 
 # Alignment of the rest of the sequences based on the first one
-/mnt/big/Tools/mafft-7.453-with-extensions/bin/mafft --thread 20 --auto --addfull rest_bacteria_seqs.fasta --keeplength --reorder core_bacteria_alignment.aln >  bacteria_alignment.aln
+/mnt/big/Tools/mafft-7.453-with-extensions/bin/mafft --thread 20 --auto --addfull rest_bacteria_seqs.fasta --keeplength --reorder --adjustdirectionaccurately core_bacteria_alignment.aln >  bacteria_alignment.aln
 
