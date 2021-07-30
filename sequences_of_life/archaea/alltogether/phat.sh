@@ -13,7 +13,7 @@
 
 # Setting the order level as min-tax-tevel
 /home1/haris/Desktop/stsm/sequences_of_life/gappa/bin/gappa prepare phat --taxonomy-file taxonomies_present.tsv \
-    --sequence-file fixed_tax_trimmed_archaea.aln \
+    --sequence-file trimmed_aligned_archaea.aln \
     --target-size 15  \
     --min-tax-level 5  \
     --threads 20 \
