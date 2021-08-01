@@ -15,8 +15,8 @@
 /home1/haris/Desktop/stsm/sequences_of_life/gappa/bin/gappa prepare phat --taxonomy-file taxonomies_present.tsv \
     --sequence-file trimmed_aligned_archaea.aln \
     --target-size 23  \
-    --min-tax-level 6  \
+    --min-tax-level 5 \
     --threads 20 \
     --consensus-method majorities \
-    --out-dir phat_archaea_lev_6
+    --out-dir phat_archaea_lev_5
 

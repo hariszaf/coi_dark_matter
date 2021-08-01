@@ -16,8 +16,8 @@
     --taxonomy-file TAXONOMIES_FIXED \
     --sequence-file fixed_tax_trimmed_bacteria.aln \
     --target-size 450  \
-    --min-tax-level 3\
+    --min-tax-level 5\
     --threads 20 \
     --consensus-method majorities \
-    --out-dir phat_bacteria_lev_3
+    --out-dir phat_bacteria_lev_5
 

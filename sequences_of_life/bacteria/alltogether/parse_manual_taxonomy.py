@@ -4,16 +4,17 @@ import sys
 import os, re
 
 path                    = os.getcwd()
-mytaxonomy              = open('curated_taxonomies_format')
+mytaxonomy              = open('curated_taxonomies_11miles_format')
 my_alignment_taxonomies = open('taxonomies_present.tsv')
 my_alignment            = open('trimmed_aligned_bascteria.aln')
-
+not_found               = open('NOT_FOUND','w')
 
 taxonomy = {}
 for line in mytaxonomy: 
 
+   init_line = line
    line = line.split("\t")
-   line = list(filter(None, line))
+#   line = list(filter(None, line))
    line = line[:-1]
 
    last_element = line[-1]
@@ -54,8 +55,8 @@ for line in my_alignment:
 
                current_taxonomy = taxonomy[query[:-1]]
                
-            # else: 
-
+            else:
+               not_found.write(init_line)
             #    if "aceae" in line[1]:
                   
             #       taxa = line[1].split(";")
@@ -82,7 +83,8 @@ for line in my_alignment:
 
                current_taxonomy = taxonomy[query[:-1]]
 
-            # else: 
+            else:
+               not_found.write(init_line)
 
             #    if "aceae" in line[1]:
                   
