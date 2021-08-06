@@ -1,9 +1,11 @@
 *.fasta
 *.phy
-*.xml
+#*.xml
 *.tsv
+*.txt
 *.output
 *.dmp
 *.aln
 *.default
+*.BCK
 manuscript/
