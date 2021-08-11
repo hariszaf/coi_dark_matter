@@ -1,0 +1,245 @@
+IQ-TREE 2.0-rc1 built Nov 21 2019
+
+Input file name: ../consensus_seqs/../consensus_seqs/archaea_consensus.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 260163
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 21 sequences with 3174 nucleotide sites
+Number of constant sites: 1460 (= 45.9987% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1460 (= 45.9987% of all sites)
+Number of parsimony informative sites: 1243
+Number of distinct site patterns: 1819
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: SYM+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+SYM+I+G4         -21919.806   43931.611 +    0.997   43932.994 +    0.997   44210.498 +    0.946
+TVMe+I+G4        -21926.700   43943.401 -  0.00275   43944.724 -  0.00283   44216.224 +    0.054
+TIM3e+I+G4       -21939.664   43967.328 - 1.75e-08   43968.593 - 1.86e-08   44234.089 - 7.13e-06
+GTR+F+I+G4       -21931.055   43960.111 - 6.46e-07   43961.679 - 5.89e-07   44257.185 - 6.88e-11
+GTR+F+R3         -21930.576   43963.152 - 1.41e-07   43964.851 - 1.21e-07   44272.352 -  3.5e-14
+GTR+F+G4         -21942.946   43981.893 -  1.2e-11   43983.398 - 1.13e-11   44272.905 - 2.66e-14
+TIM3+F+I+G4      -21951.101   43996.202 -  9.4e-15   43997.645 - 9.12e-15   44281.151 -  4.3e-16
+TVM+F+I+G4       -21949.898   43995.796 - 1.15e-14   43997.301 - 1.08e-14   44286.808 - 2.54e-17
+GTR+F+R4         -21930.505   43967.010 - 2.05e-08   43968.845 - 1.64e-08   44288.336 - 1.18e-17
+GTR+F+R2         -21949.591   43997.183 - 5.76e-15   43998.751 - 5.25e-15   44294.257 - 6.13e-19
+TPM3u+F+I+G4     -21969.821   44031.643 - 1.89e-22   44033.026 - 1.89e-22   44310.529 -  1.8e-22
+TPM3+F+I+G4      -21969.821   44031.643 - 1.89e-22   44033.026 - 1.89e-22   44310.529 -  1.8e-22
+TIMe+I+G4        -21992.463   44072.926 - 2.05e-31   44074.192 - 2.18e-31   44339.687 - 8.37e-29
+K3P+I+G4         -21999.366   44084.733 - 5.61e-34   44085.941 - 6.12e-34   44345.431 - 4.74e-30
+TIM+F+I+G4       -21993.371   44080.742 - 4.13e-33   44082.185 -    4e-33   44365.691 - 1.89e-34
+TNe+I+G4         -22015.479   44116.958 - 5.64e-41   44118.167 - 6.15e-41   44377.656 - 4.76e-37
+K2P+I+G4         -22022.174   44128.348 -  1.9e-43   44129.502 - 2.13e-43   44382.984 - 3.32e-38
+TIM2e+I+G4       -22015.454   44118.908 - 2.13e-41   44120.174 - 2.26e-41   44385.669 - 8.67e-39
+K3Pu+F+I+G4      -22012.630   44117.260 - 4.85e-41   44118.643 - 4.85e-41   44396.147 -  4.6e-41
+TN+F+I+G4        -22015.138   44122.275 - 3.95e-42   44123.658 - 3.95e-42   44401.162 - 3.75e-42
+TIM2+F+I+G4      -22014.188   44122.376 - 3.76e-42   44123.819 - 3.64e-42   44407.325 - 1.72e-43
+HKY+F+I+G4       -22033.789   44157.578 - 8.52e-50   44158.902 - 8.78e-50   44430.402 - 1.68e-48
+TPM2+F+I+G4      -22032.696   44157.391 - 9.36e-50   44158.774 - 9.36e-50   44436.278 - 8.88e-50
+TPM2u+F+I+G4     -22032.696   44157.391 - 9.36e-50   44158.774 - 9.36e-50   44436.278 - 8.88e-50
+JC+I+G4          -22069.510   44221.019 - 1.43e-63   44222.119 - 1.64e-63   44469.592 - 5.18e-57
+F81+F+I+G4       -22081.724   44251.449 - 3.52e-70   44252.714 - 3.74e-70   44518.210 - 1.44e-67
+GTR+F+I          -22086.479   44268.959 - 5.55e-74   44270.464 - 5.22e-74   44559.971 - 1.23e-76
+GTR+F            -22219.515   44533.031 - 2.52e-131   44534.474 - 2.45e-131   44817.980 - 1.16e-132
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: SYM+I+G4
+
+Rate parameter R:
+
+  A-C: 2.4823
+  A-G: 3.7911
+  A-T: 1.8066
+  C-G: 3.3628
+  C-T: 2.9380
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A    -1.051    0.3228     0.493    0.2349
+  C    0.3228    -1.142    0.4373     0.382
+  G     0.493    0.4373     -1.06      0.13
+  T    0.2349     0.382      0.13    -0.747
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.03268
+Gamma shape alpha: 2.289
+
+ Category  Relative_rate  Proportion
+  0         0              0.03268
+  1         0.3364         0.2418
+  2         0.7056         0.2418
+  3         1.112          0.2418
+  4         1.981          0.2418
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -21919.7853 (s.e. 405.0435)
+Unconstrained log-likelihood (without tree): -18193.5031
+Number of free parameters (#branches + #model parameters): 46
+Akaike information criterion (AIC) score: 43931.5706
+Corrected Akaike information criterion (AICc) score: 43932.9534
+Bayesian information criterion (BIC) score: 44210.4570
+
+Total tree length (sum of branch lengths): 10.8953
+Sum of internal branch lengths: 2.6313 (24.1508% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Ferroplasmaceae_Ferroplasmaceae_Ferroplasma' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Ferroplasmaceae_Ferroplasmaceae_Ferroplasma
+|
++--Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Picrophilaceae_Picrophilaceae_Picrophilus
+|
+|                +------------Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_unclassified_Thermoplasmatales_unclassified_Thermoplasmatales
+|             +--| (96.6/97)
+|             |  +---------Archaea_TACK_group_Crenarchaeota_Thermoprotei_Sulfolobales_Sulfolobaceae
+|          +--| (77/84)
+|          |  |            +---Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_environmental_samples_uncultured_marine_crenarchaeote_HF4000_ANIW133M9
+|          |  |         +--| (97/99)
+|          |  |         |  +--Archaea_TACK_group_Thaumarchaeota_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis
+|          |  |     +---| (100/100)
+|          |  |     |   +--Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_Nitrosopumilaceae_Nitrosopumilaceae
+|          |  +-----| (100/100)
+|          |        +--Archaea_TACK_group_Thaumarchaeota_Nitrososphaeria_Nitrososphaerales_Nitrososphaeraceae
++----------| (100/100)
+           |             +---Archaea_environmental_samples_environmental_samples_environmental_samples_environmental_samples_environmental_samples
+           |          +--| (73.4/41)
+           |          |  |        +-----------------------------Archaea_Euryarchaeota_Archaeoglobi_Archaeoglobales_Archaeoglobaceae_Archaeoglobaceae_Ferroglobus
+           |          |  |     +--| (73.2/42)
+           |          |  |     |  +---------Archaea_TACK_group_Crenarchaeota_Thermoprotei_Desulfurococcales_Desulfurococcaceae
+           |          |  |  +--| (100/47)
+           |          |  |  |  +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Natrialbales_Natrialbaceae
+           |          |  +--| (80.3/37)
+           |          |     +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Halorubraceae
+           |       +--| (0/37)
+           |       |  +----------------------Archaea_Euryarchaeota_Stenosarchaea_group_Methanomicrobia_Methanosarcinales_Candidatus_Methanoperedenaceae_Candidatus_Methanoperedens
+           |  +----| (100/69)
+           |  |    |  +-------------------Archaea_Euryarchaeota_environmental_samples_environmental_samples_environmental_samples_environmental_samples
+           |  |    +--| (66.1/62)
+           |  |       |  +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Haloarculaceae
+           |  |       +--| (80.6/81)
+           |  |          |     +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halobacteriaceae
+           |  |          |  +--| (51.6/76)
+           |  |          |  |  +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halococcaceae_Halococcus
+           |  |          +--| (87.1/84)
+           |  |             +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Haloferacaceae
+           +--| (98.1/72)
+              |  +--------Archaea_TACK_group_Crenarchaeota_Thermoprotei_Thermoproteales_Thermoproteaceae_Pyrobaculum
+              +--| (37.7/69)
+                 +-------Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea
+
+Tree in newick format:
+
+(Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Ferroplasmaceae_Ferroplasmaceae_Ferroplasma:0.1930622759,Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Picrophilaceae_Picrophilaceae_Picrophilus:0.1816782525,(((Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_unclassified_Thermoplasmatales_unclassified_Thermoplasmatales:0.7201915760,Archaea_TACK_group_Crenarchaeota_Thermoprotei_Sulfolobales_Sulfolobaceae:0.5463963737)96.6/97:0.1852202549,(((Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_environmental_samples_uncultured_marine_crenarchaeote_HF4000_ANIW133M9:0.2193359870,Archaea_TACK_group_Thaumarchaeota_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis:0.0235824526)97/99:0.0444108662,Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_Nitrosopumilaceae_Nitrosopumilaceae:0.0829481277)100/100:0.2216340214,Archaea_TACK_group_Thaumarchaeota_Nitrososphaeria_Nitrososphaerales_Nitrososphaeraceae:0.1493760865)100/100:0.3716482904)77/84:0.0563231994,((((Archaea_environmental_samples_environmental_samples_environmental_samples_environmental_samples_environmental_samples:0.2299457229,(((Archaea_Euryarchaeota_Archaeoglobi_Archaeoglobales_Archaeoglobaceae_Archaeoglobaceae_Ferroglobus:1.6075687070,Archaea_TACK_group_Crenarchaeota_Thermoprotei_Desulfurococcales_Desulfurococcaceae:0.5494331895)73.2/42:0.1223321923,Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Natrialbales_Natrialbaceae:0.0678755983)100/47:0.1888094157,Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Halorubraceae:0.0829019802)80.3/37:0.0823793662)73.4/41:0.1015951478,Archaea_Euryarchaeota_Stenosarchaea_group_Methanomicrobia_Methanosarcinales_Candidatus_Methanoperedenaceae_Candidatus_Methanoperedens:1.2621332727)0/37:0.0153424000,(Archaea_Euryarchaeota_environmental_samples_environmental_samples_environmental_samples_environmental_samples:1.0942714857,(Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Haloarculaceae:0.0103219714,((Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halobacteriaceae:0.0521972979,Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halococcaceae_Halococcus:0.0771020369)51.6/76:0.0247800846,Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Haloferacaceae:0.1436691812)87.1/84:0.0226091488)80.6/81:0.0410331765)66.1/62:0.0334843250)100/69:0.2736824672,(Archaea_TACK_group_Crenarchaeota_Thermoprotei_Thermoproteales_Thermoproteaceae_Pyrobaculum:0.5311370727,Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea:0.4388514389)37.7/69:0.0468254088)98.1/72:0.2072846238)100/100:0.5919041108);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -21920.566545
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Ferroplasmaceae_Ferroplasmaceae_Ferroplasma
+|
++--Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Picrophilaceae_Picrophilaceae_Picrophilus
+|
+|                +------------Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_unclassified_Thermoplasmatales_unclassified_Thermoplasmatales
+|             +--| (97)
+|             |  +---------Archaea_TACK_group_Crenarchaeota_Thermoprotei_Sulfolobales_Sulfolobaceae
+|          +--| (84)
+|          |  |             +---Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_environmental_samples_uncultured_marine_crenarchaeote_HF4000_ANIW133M9
+|          |  |          +--| (99)
+|          |  |          |  +--Archaea_TACK_group_Thaumarchaeota_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis
+|          |  |      +---| (100)
+|          |  |      |   +--Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_Nitrosopumilaceae_Nitrosopumilaceae
+|          |  +------| (100)
+|          |         +--Archaea_TACK_group_Thaumarchaeota_Nitrososphaeria_Nitrososphaerales_Nitrososphaeraceae
++----------| (100)
+           |             +---Archaea_environmental_samples_environmental_samples_environmental_samples_environmental_samples_environmental_samples
+           |          +--| (41)
+           |          |  |     +-------------------------------Archaea_Euryarchaeota_Archaeoglobi_Archaeoglobales_Archaeoglobaceae_Archaeoglobaceae_Ferroglobus
+           |          |  |  +--| (47)
+           |          |  |  |  |  +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Natrialbales_Natrialbaceae
+           |          |  |  |  +--| (55)
+           |          |  |  |     +-----------Archaea_TACK_group_Crenarchaeota_Thermoprotei_Desulfurococcales_Desulfurococcaceae
+           |          |  +--| (37)
+           |          |     +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Halorubraceae
+           |       +--| (37)
+           |       |  +-----------------------Archaea_Euryarchaeota_Stenosarchaea_group_Methanomicrobia_Methanosarcinales_Candidatus_Methanoperedenaceae_Candidatus_Methanoperedens
+           |  +----| (69)
+           |  |    |  +--------------------Archaea_Euryarchaeota_environmental_samples_environmental_samples_environmental_samples_environmental_samples
+           |  |    +--| (62)
+           |  |       |  +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Haloarculaceae
+           |  |       +--| (81)
+           |  |          |     +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halobacteriaceae
+           |  |          |  +--| (76)
+           |  |          |  |  +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halococcaceae_Halococcus
+           |  |          +--| (84)
+           |  |             +--Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Haloferacaceae
+           +--| (72)
+              |  +---------Archaea_TACK_group_Crenarchaeota_Thermoprotei_Thermoproteales_Thermoproteaceae_Pyrobaculum
+              +--| (69)
+                 +-------Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea
+
+
+Consensus tree in newick format: 
+
+(Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Ferroplasmaceae_Ferroplasmaceae_Ferroplasma:0.1933490834,Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Picrophilaceae_Picrophilaceae_Picrophilus:0.1813751630,(((Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_unclassified_Thermoplasmatales_unclassified_Thermoplasmatales:0.7205611860,Archaea_TACK_group_Crenarchaeota_Thermoprotei_Sulfolobales_Sulfolobaceae:0.5465263426)97:0.1855487074,(((Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_environmental_samples_uncultured_marine_crenarchaeote_HF4000_ANIW133M9:0.2193355694,Archaea_TACK_group_Thaumarchaeota_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis:0.0235408488)99:0.0444143110,Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_Nitrosopumilaceae_Nitrosopumilaceae:0.0829450302)100:0.2221239566,Archaea_TACK_group_Thaumarchaeota_Nitrososphaeria_Nitrososphaerales_Nitrososphaeraceae:0.1489023882)100:0.3721772625)84:0.0562115962,((((Archaea_environmental_samples_environmental_samples_environmental_samples_environmental_samples_environmental_samples:0.2312995491,((Archaea_Euryarchaeota_Archaeoglobi_Archaeoglobales_Archaeoglobaceae_Archaeoglobaceae_Ferroglobus:1.6845122686,(Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Natrialbales_Natrialbaceae:0.0668781907,Archaea_TACK_group_Crenarchaeota_Thermoprotei_Desulfurococcales_Desulfurococcaceae:0.6683193028)55:0.0311558782)47:0.1605181436,Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Halorubraceae:0.0830517425)37:0.0824283504)41:0.1003079116,Archaea_Euryarchaeota_Stenosarchaea_group_Methanomicrobia_Methanosarcinales_Candidatus_Methanoperedenaceae_Candidatus_Methanoperedens:1.2606936002)37:0.0152459599,(Archaea_Euryarchaeota_environmental_samples_environmental_samples_environmental_samples_environmental_samples:1.0947677460,(Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Haloarculaceae:0.0102718538,((Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halobacteriaceae:0.0521995164,Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halococcaceae_Halococcus:0.0770961883)76:0.0247911994,Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Haloferacaceae:0.1436420666)84:0.0226675445)81:0.0405036453)62:0.0345182885)69:0.2735831097,(Archaea_TACK_group_Crenarchaeota_Thermoprotei_Thermoproteales_Thermoproteaceae_Pyrobaculum:0.5307769364,Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea:0.4377853166)69:0.0478974232)72:0.2065223064)100:0.5919819250);
+
+TIME STAMP
+----------
+
+Date and time: Wed Aug 11 12:37:11 2021
+Total CPU time used: 44.18 seconds (0h:0m:44s)
+Total wall-clock time used: 15.08066082 seconds (0h:0m:15s)
+

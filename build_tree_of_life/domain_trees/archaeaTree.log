@@ -1,0 +1,203 @@
+IQ-TREE multicore version 2.0-rc1 for Linux 64-bit built Nov 21 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node-11 (AVX2, FMA3, 125 GB RAM)
+Command: /mnt/big/Phylogeny/iqtree-2.0-rc1-Linux/bin/iqtree -s ../consensus_seqs/../consensus_seqs/archaea_consensus.fasta -m MFP -alrt 1000 -B 1000 --prefix archaeaTree -T AUTO
+Seed:    260163 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 11 12:35:50 2021
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file ../consensus_seqs/../consensus_seqs/archaea_consensus.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 863 sites contain only gaps or ambiguous characters.
+Alignment has 21 sequences with 3174 columns, 1819 distinct patterns
+1243 parsimony-informative, 471 singleton sites, 1460 constant sites
+                                                                                                                                       Gap/Ambiguity  Composition  p-value
+   1  Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Ferroplasmaceae_Ferroplasmaceae_Ferroplasma                        78.36%    failed      0.00%
+   2  Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_Picrophilaceae_Picrophilaceae_Picrophilus                          78.36%    failed      0.00%
+   3  Archaea_Candidatus_Thermoplasmatota_Thermoplasmata_Thermoplasmatales_unclassified_Thermoplasmatales_unclassified_Thermoplasmatales      47.79%    failed      0.00%
+   4  Archaea_environmental_samples_environmental_samples_environmental_samples_environmental_samples_environmental_samples                   66.35%    failed      0.00%
+   5  Archaea_Euryarchaeota_Archaeoglobi_Archaeoglobales_Archaeoglobaceae_Archaeoglobaceae_Ferroglobus                                        48.74%    failed      1.18%
+   6  Archaea_Euryarchaeota_environmental_samples_environmental_samples_environmental_samples_environmental_samples                           84.91%    failed      0.04%
+   7  Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Haloarculaceae                                                   64.93%    failed      0.00%
+   8  Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halobacteriaceae                                                 47.98%    failed      0.00%
+   9  Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Halobacteriales_Halococcaceae_Halococcus                                         63.07%    failed      0.00%
+  10  Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Haloferacaceae                                                     78.73%    failed      0.00%
+  11  Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Haloferacales_Halorubraceae                                                      69.88%    failed      0.00%
+  12  Archaea_Euryarchaeota_Stenosarchaea_group_Halobacteria_Natrialbales_Natrialbaceae                                                       63.23%    failed      0.00%
+  13  Archaea_Euryarchaeota_Stenosarchaea_group_Methanomicrobia_Methanosarcinales_Candidatus_Methanoperedenaceae_Candidatus_Methanoperedens   86.86%    failed      0.55%
+  14  Archaea_TACK_group_Crenarchaeota_Thermoprotei_Desulfurococcales_Desulfurococcaceae                                                      56.33%    failed      2.09%
+  15  Archaea_TACK_group_Crenarchaeota_Thermoprotei_Sulfolobales_Sulfolobaceae                                                                69.12%    failed      0.00%
+  16  Archaea_TACK_group_Crenarchaeota_Thermoprotei_Thermoproteales_Thermoproteaceae_Pyrobaculum                                              78.26%    failed      0.00%
+  17  Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_environmental_samples_uncultured_marine_crenarchaeote_HF4000_ANIW133M9               79.77%    failed      0.00%
+  18  Archaea_TACK_group_Thaumarchaeota_Nitrosopumilales_Nitrosopumilaceae_Nitrosopumilaceae                                                  61.72%    failed      0.00%
+  19  Archaea_TACK_group_Thaumarchaeota_Nitrososphaeria_Nitrososphaerales_Nitrososphaeraceae                                                  51.98%    failed      0.00%
+  20  Archaea_TACK_group_Thaumarchaeota_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis_Thaumarchaeota_incertae_sedis             51.76%    failed      0.00%
+  21  Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea_unclassified_Archaea                        57.81%    failed      0.00%
+WARNING: 18 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                   66.00%  21 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+312 trees examined
+Threads: 1 / Time: 20.059 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -24259
+Threads: 2 / Time: 15.555 sec / Speedup: 1.290 / Efficiency: 64% / LogL: -24259
+Threads: 3 / Time: 13.167 sec / Speedup: 1.523 / Efficiency: 51% / LogL: -24259
+Threads: 4 / Time: 11.915 sec / Speedup: 1.684 / Efficiency: 42% / LogL: -24259
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -21936.039
+2. Current log-likelihood: -21933.098
+Optimal log-likelihood: -21932.100
+Rate parameters:  A-C: 2.46356  A-G: 4.09321  A-T: 1.91498  C-G: 3.12690  C-T: 2.69037  G-T: 1.00000
+Base frequencies:  A: 0.227  C: 0.273  G: 0.246  T: 0.253
+Proportion of invariable sites: 0.042
+Gamma shape alpha: 2.449
+Parameters optimization took 2 rounds (0.065 sec)
+Time for fast ML tree search: 0.502 seconds
+
+NOTE: ModelFinder requires 19 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 3174) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         22219.515    47  44533.031    44534.474    44817.980
+  2  GTR+F+I       22086.479    48  44268.959    44270.464    44559.971
+  3  GTR+F+G4      21942.946    48  43981.893    43983.398    44272.905
+  4  GTR+F+I+G4    21931.055    49  43960.111    43961.679    44257.185
+  5  GTR+F+R2      21949.591    49  43997.183    43998.751    44294.257
+  6  GTR+F+R3      21930.576    51  43963.152    43964.851    44272.352
+  7  GTR+F+R4      21930.505    53  43967.010    43968.845    44288.336
+ 17  SYM+I+G4      21919.806    46  43931.611    43932.994    44210.498
+ 30  TVM+F+I+G4    21949.898    48  43995.796    43997.301    44286.808
+ 43  TVMe+I+G4     21926.700    45  43943.401    43944.724    44216.224
+ 56  TIM3+F+I+G4   21951.101    47  43996.202    43997.645    44281.151
+ 69  TIM3e+I+G4    21939.664    44  43967.328    43968.593    44234.089
+ 82  TIM2+F+I+G4   22014.188    47  44122.376    44123.819    44407.325
+ 95  TIM2e+I+G4    22015.454    44  44118.908    44120.174    44385.669
+108  TIM+F+I+G4    21993.371    47  44080.742    44082.185    44365.691
+121  TIMe+I+G4     21992.463    44  44072.926    44074.192    44339.687
+134  TPM3u+F+I+G4  21969.821    46  44031.643    44033.026    44310.529
+147  TPM3+F+I+G4   21969.821    46  44031.643    44033.026    44310.529
+160  TPM2u+F+I+G4  22032.696    46  44157.391    44158.774    44436.278
+173  TPM2+F+I+G4   22032.696    46  44157.391    44158.774    44436.278
+186  K3Pu+F+I+G4   22012.630    46  44117.260    44118.643    44396.147
+199  K3P+I+G4      21999.366    43  44084.733    44085.941    44345.431
+212  TN+F+I+G4     22015.138    46  44122.275    44123.658    44401.162
+225  TNe+I+G4      22015.479    43  44116.958    44118.167    44377.656
+238  HKY+F+I+G4    22033.789    45  44157.578    44158.902    44430.402
+251  K2P+I+G4      22022.174    42  44128.348    44129.502    44382.984
+264  F81+F+I+G4    22081.724    44  44251.449    44252.714    44518.210
+277  JC+I+G4       22069.510    41  44221.019    44222.119    44469.592
+Akaike Information Criterion:           SYM+I+G4
+Corrected Akaike Information Criterion: SYM+I+G4
+Bayesian Information Criterion:         SYM+I+G4
+Best-fit model: SYM+I+G4 chosen according to BIC
+
+All model information printed to archaeaTree.model.gz
+CPU time for ModelFinder: 153.768 seconds (0h:2m:33s)
+Wall-clock time for ModelFinder: 66.065 seconds (0h:1m:6s)
+Generating 1000 samples for ultrafast bootstrap (seed: 260163)...
+
+NOTE: 11 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 2.298 / Estimate: 0.000, 1.769 / LogL: -21931.421
+Init pinv, alpha: 0.051, 2.298 / Estimate: 0.035, 2.325 / LogL: -21919.904
+Init pinv, alpha: 0.102, 2.298 / Estimate: 0.035, 2.326 / LogL: -21919.907
+Init pinv, alpha: 0.153, 2.298 / Estimate: 0.035, 2.325 / LogL: -21919.904
+Init pinv, alpha: 0.204, 2.298 / Estimate: 0.035, 2.320 / LogL: -21919.877
+Init pinv, alpha: 0.256, 2.298 / Estimate: 0.035, 2.324 / LogL: -21919.899
+Init pinv, alpha: 0.307, 2.298 / Estimate: 0.035, 2.329 / LogL: -21919.919
+Init pinv, alpha: 0.358, 2.298 / Estimate: 0.035, 2.319 / LogL: -21919.872
+Init pinv, alpha: 0.409, 2.298 / Estimate: 0.035, 2.321 / LogL: -21919.882
+Init pinv, alpha: 0.460, 2.298 / Estimate: 0.035, 2.323 / LogL: -21919.892
+Optimal pinv,alpha: 0.035, 2.319 / LogL: -21919.872
+
+Parameters optimization took 1.654 sec
+Computing ML distances based on estimated model parameters... 0.020 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -21942.528
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.483 second
+Computing log-likelihood of 98 initial trees ... 0.477 seconds
+Current best score: -21919.872
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21919.832
+Iteration 10 / LogL: -21920.850 / Time: 0h:0m:3s
+Iteration 20 / LogL: -21924.454 / Time: 0h:0m:5s
+Finish initializing candidate tree set (9)
+Current best tree score: -21919.832 / CPU time: 3.481
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -21919.971 / Time: 0h:0m:6s (0h:0m:15s left)
+Iteration 40 / LogL: -21920.121 / Time: 0h:0m:7s (0h:0m:11s left)
+Iteration 50 / LogL: -21920.205 / Time: 0h:0m:8s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -21960.532
+Iteration 60 / LogL: -21924.936 / Time: 0h:0m:9s (0h:0m:6s left)
+Iteration 70 / LogL: -21920.950 / Time: 0h:0m:10s (0h:0m:4s left)
+Iteration 80 / LogL: -21919.933 / Time: 0h:0m:11s (0h:0m:3s left)
+Iteration 90 / LogL: -21919.986 / Time: 0h:0m:13s (0h:0m:1s left)
+Iteration 100 / LogL: -21920.393 / Time: 0h:0m:14s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -21960.532
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21919.832
+2. Current log-likelihood: -21919.809
+3. Current log-likelihood: -21919.794
+Optimal log-likelihood: -21919.785
+Rate parameters:  A-C: 2.48232  A-G: 3.79110  A-T: 1.80664  C-G: 3.36279  C-T: 2.93804  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.033
+Gamma shape alpha: 2.289
+Parameters optimization took 3 rounds (0.044 sec)
+BEST SCORE FOUND : -21919.785
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.300 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file archaeaTree.splits.nex
+Total tree length: 10.895
+
+Total number of iterations: 102
+CPU time used for tree search: 37.560 sec (0h:0m:37s)
+Wall-clock time used for tree search: 12.795 sec (0h:0m:12s)
+Total CPU time used: 44.180 sec (0h:0m:44s)
+Total wall-clock time used: 15.017 sec (0h:0m:15s)
+
+Computing bootstrap consensus tree...
+Reading input file archaeaTree.splits.nex...
+21 taxa and 144 splits.
+Consensus tree written to archaeaTree.contree
+Reading input trees file archaeaTree.contree
+Log-likelihood of consensus tree: -21920.567
+
+Analysis results written to: 
+  IQ-TREE report:                archaeaTree.iqtree
+  Maximum-likelihood tree:       archaeaTree.treefile
+  Likelihood distances:          archaeaTree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          archaeaTree.splits.nex
+  Consensus tree:                archaeaTree.contree
+  Screen log file:               archaeaTree.log
+
+Date and Time: Wed Aug 11 12:37:11 2021
